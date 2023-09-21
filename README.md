@@ -1,8 +1,10 @@
 #### This repository contains prerequisite files + more to be used while modelling proteins with Modeller
 
 - `pdb2fasta.pl`
-  - a perl script to obtain a FASTA sequence for a desired protein
-  - This perl script was created by Ranjit Vijayan in March 2066 (a former member of SBCB, Dept of Biochem, Uni of Oxford, and a Professor in the Dept of Biology, UAE Univ, as of Sep 2023)
+  - a perl script to obtain a FASTA sequence for a desired protein.
+  > This FASTA sequence is to be used in the 'structure' part of `model.ali` whereas the 'sequence' part refers to the full sequence of that protein which can be obtained from Uniprot.
+  - This perl script was created by Ranjit Vijayan in March 2006
+  > (a former member of SBCB, Dept of Biochem, Uni of Oxford, and a Professor in the Dept of Biology, UAE Univ, as of Sep 2023)
   
 - `model.ali`
   - an example alignment file (model.ali) to be used by Modeller
