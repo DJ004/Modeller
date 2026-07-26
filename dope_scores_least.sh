@@ -1,3 +1,4 @@
+#!/bin/bash 
 npdb=$(grep npdb dope_scores.py | head -n 1 | awk '{ print $3 }')
 
 for i in $(seq $npdb); do echo "$i";done > col1 
