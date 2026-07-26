@@ -38,4 +38,4 @@ a.make()
 # (1) Update the name of the modeller output file in dope_scores.py,
 #
 # (2) To calculate DOPE scores and select least energy protein model, copy-paste the following line and run it on a bash terminal
-# python2 dope_scores.py > dope_scores.log && grep -e 'DOPE score' dope_scores.log > dope_scores.csv && sh dope_scores_least.sh
+# python3 dope_scores.py > dope_scores.log && grep -e 'DOPE score' dope_scores.log > dope_scores.csv && bash dope_scores_least.sh
